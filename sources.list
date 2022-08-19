@@ -1,0 +1,21 @@
+# ##################################################### #
+# ***************************************************** #
+# *                                                   * #
+# *                ~ Unknown Soldier ~                * #
+# *                                                   * #
+# ***************************************************** #
+# ##################################################### #
+
+#Kali-rolling (Default & frequently updated):
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+
+
+#Kali-last-snapshot (Point release so more “stable” & the “safest”):
+deb http://http.kali.org/kali kali-last-snapshot main non-free contrib
+deb-src http://http.kali.org/kali kali-last-snapshot main non-free contrib
+
+
+#Kali-experimental (Packages which are under testing - often used with the rolling repository):
+deb http://http.kali.org/kali kali-experimental main non-free contrib
+deb-src http://http.kali.org/kali kali-experimental main non-free contrib
